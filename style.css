@@ -1,0 +1,19 @@
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+}
+
+.container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 'sideBar' '';
+}
+
+.sideBar{
+    background-color: rgb(23, 142, 233);
+    grid-column: 1;
+}
