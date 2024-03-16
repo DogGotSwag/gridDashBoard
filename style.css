@@ -16,7 +16,6 @@ body{
     background-color: aliceblue;
     display: grid;
     grid-template-columns: minmax(240px,1fr) 5fr;
-    grid-template-areas: 'sideBar' '';
 }
 
 .sideBar{
@@ -57,9 +56,78 @@ body{
 
 .header{
     grid-column: 1 /2;
-    background-color: blue;
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    padding-right: 5%;
+    padding-left: 5%;
+
+
 }
+
+.search{
+    grid-column: 1 /2;
+    background-color: whitesmoke;
+    display: grid;
+    align-items: center;
+    justify-items: start;
+}
+
+.search input{
+    appearance: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 25px;
+    background-color: rgb(207, 207, 207);
+
+    padding: 2px 8px;
+}
+
+.notifySec{
+    grid-column: 2/3;
+    display: grid;
+    justify-content: end;
+    align-content: center;
+
+    background-color: whitesmoke;
+}
+
+.nameSec{
+    background-color: aliceblue;
+}
+
+.buttonSec{
+    display: grid;
+    gap: 15px;
+    grid-auto-flow: column;
+
+    align-content: center;
+    justify-content: end;
+
+
+}
+
+
+.buttonSec button{
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    padding: 4px 8px;
+    background-color: rgb(23, 142, 233);    
+    color: whitesmoke;
+
+    width: 80px;
+}
+
 
 .main{
     background-color: aqua;
 }
+
+
+
