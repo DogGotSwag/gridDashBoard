@@ -6,14 +6,37 @@ body{
     display: grid;
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-areas: 'sideBar' '';
 }
 
 .sideBar{
     background-color: rgb(23, 142, 233);
-    grid-column: 1;
+    display: grid;
+    align-content: start;
+    gap:50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+.sideBar > div{
+    display: grid;
+    gap:20px;
+    grid-template-columns: auto 100px;
+    justify-content: start;
+    align-items: center;
+}
+
+.sideBar p{
+    color: whitesmoke;
 }
