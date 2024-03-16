@@ -114,7 +114,7 @@ body{
 
 
 .buttonSec button{
-    border-radius: 12px;
+    border-radius: 14px;
     border: none;
     font-size: 15px;
     padding: 6px 8px;
@@ -122,11 +122,17 @@ body{
     color: whitesmoke;
 
     width: 80px;
+    cursor: pointer;
 }
 
 
 .main{
     background-color: aqua;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 20px 1fr 1fr;
+
+    
 }
 
 
