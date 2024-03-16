@@ -48,3 +48,18 @@ body{
     font-size: 20px;
 }
 
+
+.rightSide{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+
+}
+
+.header{
+    grid-column: 1 /2;
+    background-color: blue;
+}
+
+.main{
+    background-color: aqua;
+}
