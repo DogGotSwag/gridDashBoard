@@ -15,7 +15,7 @@ body{
 .container{
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: minmax(240px,1fr) 5fr;
     grid-template-areas: 'sideBar' '';
 }
 
@@ -37,6 +37,14 @@ body{
     align-items: center;
 }
 
-.sideBar p{
+.sideBar p,
+.sideBar h1{
     color: whitesmoke;
 }
+
+.sideBar a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
