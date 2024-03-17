@@ -131,16 +131,19 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 30px 1fr 1fr;
+    padding-left: 15px;
+    gap: 15px;
 
 }
 
-.projects-title{
-    background-color: antiquewhite;
-}
-
+.projects-title,
 .announcements-title{
-    background-color: rgb(204, 204, 60);
+    align-self: end;
+    color: black;
+    font-weight: 600;
+    margin-bottom: -7px;
 }
+
 
 
 .ann-box{
