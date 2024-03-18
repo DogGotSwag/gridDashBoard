@@ -158,6 +158,8 @@ body{
 
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax( 350px, 1fr));
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
     gap: 20px;
 
 }
@@ -166,6 +168,7 @@ body{
     border-radius: 8px;
     background-color: azure;
     border-left: rgb(255, 174, 0) 6px solid;
+    height: 200px;
 }
 
 .box .art-header{
