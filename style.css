@@ -152,9 +152,24 @@ body{
     grid-row: 2;
 }
 .article{
-    background-color: aquamarine;
     grid-row: 2 / 4;
     grid-column: 1;
+
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax( 350px, 1fr));
+    gap: 20px;
+
+}
+
+.box{
+    border-radius: 8px;
+    background-color: azure;
+    border-left: rgb(255, 174, 0) 6px solid;
+}
+
+.box .art-header{
+    font-size: 18px;
 }
 
 
