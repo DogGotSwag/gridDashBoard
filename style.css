@@ -169,11 +169,29 @@ body{
     background-color: azure;
     border-left: rgb(255, 174, 0) 6px solid;
     height: 200px;
+    padding: 0 15px 0px 15px;
+
+    display: grid;
+    grid-template-rows: 40px 1fr 40px;
 }
 
 .box .art-header{
     font-size: 18px;
+    align-self: end;
 }
+
+.box p{
+
+}
+
+.op-buttons{
+    justify-self: end;
+
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
 
 
 .trendingBox{
