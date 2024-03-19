@@ -50,7 +50,7 @@ body{
 
 .rightSide{
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 140px 5fr;
 
 }
 
