@@ -139,6 +139,7 @@ body{
     background-color: rgb(217, 224, 228);
 }
 
+
 .projects-title,
 .announcements-title{
     align-self: end;
@@ -147,12 +148,20 @@ body{
     margin-bottom: -7px;
 }
 
-
+.box-side{
+    background-color: aqua;
+    grid-column: 2;
+    grid-row: 2 / 4;
+}
 
 .ann-box{
-    background-color: black;
-    grid-column: 2;
-    grid-row: 2;
+    background-color:green;
+    
+}
+
+.trendingBox{
+    background-color: yellow;
+    
 }
 .article{
     grid-row: 2 / 4;
@@ -197,9 +206,5 @@ body{
 
 
 
-.trendingBox{
-    background-color: yellow;
-    grid-column: 2;
-    grid-row: 3;
-}
+
 
