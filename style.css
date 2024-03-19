@@ -149,18 +149,42 @@ body{
 }
 
 .box-side{
-    background-color: aqua;
     grid-column: 2;
     grid-row: 2 / 4;
 }
 
 .ann-box{
-    background-color:green;
-    
+    display: grid;
+    align-content: center;
+}
+
+.ann-box div{
+    padding: 9px;
+}
+
+.ann-box, .trendingBox{
+    width: 270px;
+    height: 307px;
+    border-radius: 8px;
+    background-color: azure;
+    padding: 20px;
+}
+
+.ann-box div:nth-child(2){
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.ann-box h3{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.ann-box p{
+    font-size: 14px;
+    color: rgb(71, 71, 71);
 }
 
 .trendingBox{
-    background-color: yellow;
     
 }
 .article{
