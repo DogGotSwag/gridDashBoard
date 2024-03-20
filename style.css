@@ -131,7 +131,7 @@ body{
 
 .main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 2fr;
     grid-template-rows: 30px 1fr 1fr;
     padding-left: 15px;
     gap: 15px;
@@ -151,11 +151,21 @@ body{
 .box-side{
     grid-column: 2;
     grid-row: 2 / 4;
+
+    display: grid;
+    align-content: start;
+}
+
+.box-side h2{
+    margin-bottom: 10px;
 }
 
 .ann-box{
     display: grid;
     align-content: center;
+    height: 320px;
+    margin-bottom: 27px;
+
 }
 
 .ann-box div{
@@ -164,7 +174,6 @@ body{
 
 .ann-box, .trendingBox{
     width: 270px;
-    height: 307px;
     border-radius: 8px;
     background-color: azure;
     padding: 20px;
