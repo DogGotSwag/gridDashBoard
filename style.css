@@ -224,6 +224,14 @@ body{
    align-self: center;
 }
 
+.trending-at{
+    font-weight: 550;
+    font-size: 15px;
+}
+.trending-text{
+    font-size: 15px;
+}
+
 
 .article{
     grid-row: 2 / 4;
