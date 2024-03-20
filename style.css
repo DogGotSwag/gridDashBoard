@@ -160,19 +160,6 @@ body{
     margin-bottom: 10px;
     font-size: 20px;
 }
-
-.ann-box{
-    display: grid;
-    align-content: center;
-    height: 320px;
-    margin-bottom: 27px;
-
-}
-
-.ann-box div{
-    padding: 9px;
-}
-
 .ann-box, .trendingBox{
     width: 270px;
     border-radius: 8px;
@@ -180,9 +167,26 @@ body{
     padding: 20px;
 }
 
+.ann-box{
+    display: grid;
+    height: 320px;
+    margin-bottom: 27px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.ann-box div{
+    padding: 9px;
+    display: grid;
+    align-content: center;
+}
+
+
+
 .ann-box div:nth-child(2){
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid rgb(190, 189, 189);
+    border-bottom: 1px solid rgb(190, 189, 189);
 }
 
 .ann-box h3{
