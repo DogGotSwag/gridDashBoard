@@ -94,10 +94,19 @@ body{
 .notifySec{
     grid-column: 2/3;
     display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
     justify-content: end;
     align-content: center;
 
     background-color: whitesmoke;
+}
+
+.notifySec p , .projects-title, .announcements-title,
+.trending-title
+ {
+    font-size: 18px;
+    font-weight: 550;
 }
 
 .nameSec{
@@ -149,7 +158,6 @@ body{
 .announcements-title{
     align-self: end;
     color: black;
-    font-weight: 600;
     margin-bottom: -7px;
 }
 
@@ -225,7 +233,8 @@ body{
 }
 
 .trending-at{
-    font-weight: 550;
+    /* font-weight: 550; */
+    color: black;
     font-size: 14px;
 }
 .trending-text{
