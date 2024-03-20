@@ -101,7 +101,12 @@ body{
 }
 
 .nameSec{
+    align-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 3fr;
     background-color: aliceblue;
+    gap: 20px;
 }
 
 .buttonSec{
@@ -199,8 +204,27 @@ body{
 }
 
 .trendingBox{
-    
+    height: 320px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
+
+    align-content: center;
 }
+
+.trendingBox > div{
+    align-content: center;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+
+.trending-icon{
+   align-self: center;
+}
+
+
 .article{
     grid-row: 2 / 4;
     grid-column: 1;
