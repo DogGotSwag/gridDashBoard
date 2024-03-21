@@ -172,19 +172,19 @@ body{
 }
 
 .box-side h2{
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     font-size: 20px;
 }
 .ann-box, .trendingBox{
     width: 270px;
     border-radius: 8px;
-    background-color: azure;
+    background-color: whitesmoke;
     padding: 20px;
 }
 
 .ann-box{
     display: grid;
-    height: 320px;
+    height: 292px;
     margin-bottom: 27px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -205,16 +205,16 @@ body{
 }
 
 .ann-box h3{
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 2px;
 }
 .ann-box p, .trending-text{
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(71, 71, 71);
 }
 
 .trendingBox{
-    height: 320px;
+    height: 292px;
     display: grid;
     grid-template-rows: auto auto auto auto;
     gap: 15px;
@@ -235,12 +235,16 @@ body{
 }
 
 .trending-at{
-    /* font-weight: 550; */
     color: black;
     font-size: 14px;
 }
 .trending-text{
     font-size: 14px;
+}
+
+.trendingBox .trending-rightBox{
+    display: grid;
+    align-content: center;
 }
 
 
@@ -315,6 +319,10 @@ body{
 
 .dash-section h1{
     font-size: 25px;
+}
+
+.trending-icon{
+    height: 50px;
 }
 
 
