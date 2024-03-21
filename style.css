@@ -274,7 +274,7 @@ body{
 }
 
 .box p{
-
+    
 }
 
 .op-buttons{
@@ -294,11 +294,27 @@ body{
 }
 
 .icon{
-    color: black;
     height: 20px;
     width: auto;
     cursor: pointer;
 
+}
+
+.sideBar .icon{
+    filter: invert(98%) sepia(0%) saturate(7214%) hue-rotate(296deg) brightness(121%) contrast(92%);
+}
+
+.dash-section .icon{
+    height: 36px;
+}
+
+.sideBar .dash-section{
+    margin-left: -6px;
+    gap: 9px;
+}
+
+.dash-section h1{
+    font-size: 25px;
 }
 
 
