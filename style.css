@@ -281,6 +281,7 @@ body{
     display: grid;
     grid-auto-flow: column;
     gap: 15px;
+    margin-right: 10px;
 }
 
 
@@ -289,6 +290,16 @@ body{
 ,.trendingBox{
     box-shadow: 2px 4px 5px 1px rgb(202, 202, 202);
 }
+
+.icon{
+    color: black;
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+
+}
+
+
 
 
 
