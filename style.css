@@ -10,6 +10,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: my-Roboto;
 }
 
 .container{
@@ -64,6 +65,7 @@ body{
 
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 10px;
 
     box-shadow: 1px 1px 10px 0px rgb(168, 168, 168);
     z-index: 1;
@@ -99,7 +101,7 @@ body{
     grid-auto-flow: column;
     gap: 15px;
     justify-content: end;
-    align-content: center;
+    align-items: center;
 
     background-color: whitesmoke;
 }
@@ -112,13 +114,23 @@ body{
 }
 
 .nameSec{
-    align-content: center;
+    align-items: center;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: auto 3fr;
     background-color: aliceblue;
-    gap: 20px;
+    gap: 15px;
+    font-weight: bold;
 }
+
+.hi-sec p:nth-child(1){
+    font-size: 12px;
+}
+
+.hi-sec p:nth-child(2){
+    font-size: 25px;
+}
+
 
 .buttonSec{
     display: grid;
@@ -181,11 +193,13 @@ body{
     border-radius: 8px;
     background-color: whitesmoke;
     padding: 20px;
+    height: 291px;
+    display: grid;
+
+
 }
 
 .ann-box{
-    display: grid;
-    height: 292px;
     margin-bottom: 27px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -215,8 +229,6 @@ body{
 }
 
 .trendingBox{
-    height: 292px;
-    display: grid;
     grid-template-rows: auto auto auto auto;
     gap: 15px;
 
@@ -283,7 +295,7 @@ body{
 
 .box p{
     color: rgb(71, 71, 71);
-    font-size: 16px;
+    font-size: 13px;
 }
 .op-buttons{
     justify-self: end;
@@ -331,6 +343,15 @@ body{
 
 .search .icon{
     height: 23px;
+}
+
+.profilePic{
+    height: 70px;
+}
+
+@font-face {
+    font-family: my-Roboto;
+    src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
 }
 
 
